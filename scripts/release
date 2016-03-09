@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -ev
+
+git checkout master
+git pull
+bundle install
+
+git rebase develop
+bundle install
+rake release
+
+git checkout develop
+git rebase master 
+bundle install
