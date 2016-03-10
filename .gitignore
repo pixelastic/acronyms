@@ -1,10 +1,11 @@
-Gemfile.lock
-coverage
 .DS_Store
 .sass-cache
+Gemfile.lock
 Thumbs.db
 bower_components
+coverage
 node_modules
 npm-debug.log
+pkg
 tmp
 *~
