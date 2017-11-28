@@ -7,6 +7,6 @@ group :development do
   gem 'guard-rspec', '~> 4.6'
   gem 'jeweler', '~> 2.0'
   gem 'rspec', '~> 3.0'
-  gem 'rubocop', '~> 0.31'
+  gem 'rubocop', '~> 0.51'
   gem 'simplecov', '~> 0.10'
 end

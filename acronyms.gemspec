@@ -5,15 +5,15 @@
 # stub: acronyms 0.1.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "acronyms"
+  s.name = "acronyms".freeze
   s.version = "0.1.0"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib"]
-  s.authors = ["Tim Carry"]
-  s.date = "2016-03-09"
-  s.description = "Generate acronyms from strings"
-  s.email = "tim@pixelastic.com"
+  s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib".freeze]
+  s.authors = ["Tim Carry".freeze]
+  s.date = "2017-11-28"
+  s.description = "Generate acronyms from strings".freeze
+  s.email = "tim@pixelastic.com".freeze
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "Guardfile",
     "README.md",
     "Rakefile",
+    "acronyms.gemspec",
     "lib/acronyms.rb",
     "lib/version.rb",
     "scripts/bump_version",
@@ -38,42 +39,42 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/spec_helper_simplecov.rb"
   ]
-  s.homepage = "https://github.com/pixelastic/acronyms"
-  s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.8"
-  s.summary = "Generate acronyms from strings"
+  s.homepage = "https://github.com/pixelastic/acronyms".freeze
+  s.licenses = ["MIT".freeze]
+  s.rubygems_version = "2.6.13".freeze
+  s.summary = "Generate acronyms from strings".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<coveralls>, ["~> 0.8"])
-      s.add_development_dependency(%q<flay>, ["~> 2.6"])
-      s.add_development_dependency(%q<flog>, ["~> 4.3"])
-      s.add_development_dependency(%q<guard-rspec>, ["~> 4.6"])
-      s.add_development_dependency(%q<jeweler>, ["~> 2.0"])
-      s.add_development_dependency(%q<rspec>, ["~> 3.0"])
-      s.add_development_dependency(%q<rubocop>, ["~> 0.31"])
-      s.add_development_dependency(%q<simplecov>, ["~> 0.10"])
+      s.add_development_dependency(%q<coveralls>.freeze, ["~> 0.8"])
+      s.add_development_dependency(%q<flay>.freeze, ["~> 2.6"])
+      s.add_development_dependency(%q<flog>.freeze, ["~> 4.3"])
+      s.add_development_dependency(%q<guard-rspec>.freeze, ["~> 4.6"])
+      s.add_development_dependency(%q<jeweler>.freeze, ["~> 2.0"])
+      s.add_development_dependency(%q<rspec>.freeze, ["~> 3.0"])
+      s.add_development_dependency(%q<rubocop>.freeze, ["~> 0.51"])
+      s.add_development_dependency(%q<simplecov>.freeze, ["~> 0.10"])
     else
-      s.add_dependency(%q<coveralls>, ["~> 0.8"])
-      s.add_dependency(%q<flay>, ["~> 2.6"])
-      s.add_dependency(%q<flog>, ["~> 4.3"])
-      s.add_dependency(%q<guard-rspec>, ["~> 4.6"])
-      s.add_dependency(%q<jeweler>, ["~> 2.0"])
-      s.add_dependency(%q<rspec>, ["~> 3.0"])
-      s.add_dependency(%q<rubocop>, ["~> 0.31"])
-      s.add_dependency(%q<simplecov>, ["~> 0.10"])
+      s.add_dependency(%q<coveralls>.freeze, ["~> 0.8"])
+      s.add_dependency(%q<flay>.freeze, ["~> 2.6"])
+      s.add_dependency(%q<flog>.freeze, ["~> 4.3"])
+      s.add_dependency(%q<guard-rspec>.freeze, ["~> 4.6"])
+      s.add_dependency(%q<jeweler>.freeze, ["~> 2.0"])
+      s.add_dependency(%q<rspec>.freeze, ["~> 3.0"])
+      s.add_dependency(%q<rubocop>.freeze, ["~> 0.51"])
+      s.add_dependency(%q<simplecov>.freeze, ["~> 0.10"])
     end
   else
-    s.add_dependency(%q<coveralls>, ["~> 0.8"])
-    s.add_dependency(%q<flay>, ["~> 2.6"])
-    s.add_dependency(%q<flog>, ["~> 4.3"])
-    s.add_dependency(%q<guard-rspec>, ["~> 4.6"])
-    s.add_dependency(%q<jeweler>, ["~> 2.0"])
-    s.add_dependency(%q<rspec>, ["~> 3.0"])
-    s.add_dependency(%q<rubocop>, ["~> 0.31"])
-    s.add_dependency(%q<simplecov>, ["~> 0.10"])
+    s.add_dependency(%q<coveralls>.freeze, ["~> 0.8"])
+    s.add_dependency(%q<flay>.freeze, ["~> 2.6"])
+    s.add_dependency(%q<flog>.freeze, ["~> 4.3"])
+    s.add_dependency(%q<guard-rspec>.freeze, ["~> 4.6"])
+    s.add_dependency(%q<jeweler>.freeze, ["~> 2.0"])
+    s.add_dependency(%q<rspec>.freeze, ["~> 3.0"])
+    s.add_dependency(%q<rubocop>.freeze, ["~> 0.51"])
+    s.add_dependency(%q<simplecov>.freeze, ["~> 0.10"])
   end
 end
 
